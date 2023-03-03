@@ -1,12 +1,13 @@
 .containerBoard{
  text-align: center;
- padding-top: 20px;
+margin-top: 30px;
 }
 
 main {
     display: grid;
     grid-template-columns: 200px 200px 200px;
     grid-gap: 0px;
+    margin-top: 30px;
 }
 
 app-square {
@@ -18,17 +19,17 @@ h1{
     color: white; 
     /* text-shadow: -1px -1px 0 #000, 0.2px -1px 0 #000, -1px 0.2px 0 #000, 0.2px 0.2px 0 #000; */
     font-size: xx-large;
-    margin-top: 25px;
 }
 
 button{
-    margin: 25px;
+    margin-top: 25px;
     background-color: rgba($color: black, $alpha: 0.3) !important;
     font-size: large;
 }
 
 .winner{
     font-size: 50px;
+    margin-top: 40px;
 }
 
 .player{
